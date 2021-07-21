@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+.user-container{
+  font-family:Poppins;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 16px;
+  gap: 10px;
+  background-image: linear-gradient(to right top, #12cfeb, #24a5c8, #2f7ca0, #2f5676, #25344b);
+}
+
+.user-image {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.repo-details{
+  color:white;
+}
+
+@media (min-width: 400px) {
+  .user-container {
+    display: flex;
+  }
+}
+
+body{
+   display: grid;
+  height: 100vh;
+  place-items: center;
+  background-image: linear-gradient(to right top, #abcfd4, #add2dd, #b1d4e6, #b8d6ee, #c1d7f5);
+}
+
+.user-container:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.heading{
+  font-family: 'Fira Sans', sans-serif;
+  color:#300586;
+}
