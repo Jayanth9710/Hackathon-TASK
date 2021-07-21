@@ -33,7 +33,7 @@ logo.innerHTML = `
       userContainer.innerHTML = `
       <img class="user-image" src=${data.owner.avatar_url}></img>
       <div class="repo-details">
-      <a href=${data.html_url} target="_blank">Repository Link</a>
+      <a href=${data.html_url} target="_blank" class="repo-link">Repository Link</a>
       <h3 class="repo-name">Repository Name: ${data.name}<h3>
       <p class="country-details">Fork-Count: ${data.forks_count} <br> Star-Gazers-Count: ${data.stargazers_count} <br>  </p>
       
