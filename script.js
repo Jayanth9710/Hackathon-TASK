@@ -17,7 +17,7 @@ logo.innerHTML = `
 <h1 class="heading">Github API Repos Application <h1>
 <input placeholder="Enter Github User Name" class="name"></input>
     <button class="btn btn-primary" type="submit" onclick="requestUserrepo()">Find your Github Repos</button>
-    <button class="reset type="submit" onclick="refreshList()">Reset Username</button>
+    <button class="reset type="submit" onclick="window.location.reload()">Reset Username</button>
     <div class="pagination"></div>
 `
   document.body.append(logo);
@@ -90,7 +90,7 @@ logo.innerHTML = `
     requestUserrepo();
   }
 
-  function formreset() {
-    document.querySelector(".name").value='';
-    document.querySelector(".pagination").remove();
-  }
+//   function formreset() {
+//     document.querySelector(".name").value='';
+//     document.querySelector(".pagination").remove();
+//   }
